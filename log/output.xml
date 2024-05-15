@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.10.4 on win32)" generated="2024-05-15T11:15:26.303257" rpa="false" schemaversion="5">
+<suite id="s1" name="TC-01" source="C:\Users\mahbub.islam\PycharmProjects\RPA_SDET\RobotFramework_DemoProject\TestCases\TC-01.robot">
+<test id="s1-t1" name="LoginTest" line="9">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-05-15T11:15:26.901301" level="INFO">Opening browser 'chrome' to base url 'http://dceims.bdeducation.org.bd/schoolAdmin'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-05-15T11:15:26.900286" elapsed="5.568333"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-05-15T11:15:32.468619" elapsed="0.042978"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-05-15T11:15:34.514217" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-05-15T11:15:32.511597" elapsed="2.002620"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-05-15T11:15:34.515216" level="INFO">Typing text 'marma.newaj@gmail.com' into text field 'xpath://input[@placeholder='Email/User ID']'.</msg>
+<arg>xpath://input[@placeholder='Email/User ID']</arg>
+<arg>marma.newaj@gmail.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-05-15T11:15:34.515216" elapsed="0.287299"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-05-15T11:15:34.804526" level="INFO">Typing text '12345678' into text field 'xpath://input[@id='password']'.</msg>
+<arg>xpath://input[@id='password']</arg>
+<arg>12345678</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-05-15T11:15:34.803524" elapsed="0.119570"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-05-15T11:15:34.924092" level="INFO">Clicking element 'xpath://button[@type='submit']'.</msg>
+<arg>xpath://button[@type='submit']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-05-15T11:15:34.923094" elapsed="8.071317"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-05-15T11:15:47.997908" level="INFO">Slept 5 seconds.</msg>
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-05-15T11:15:42.995920" elapsed="5.001988"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-05-15T11:15:47.997908" elapsed="5.315415"/>
+</kw>
+<status status="PASS" start="2024-05-15T11:15:26.899308" elapsed="26.415000"/>
+</test>
+<status status="PASS" start="2024-05-15T11:15:26.308271" elapsed="27.008057"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="TC-01">TC-01</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
